@@ -1,0 +1,32 @@
+.imagem-carrossel {
+  object-fit: cover; /* Capa de Ajuste do Objeto 'img' em seu container sem achatar */
+  object-position: 0 80%;/* Movimentar a 'img' do seu eixo X e Y */
+  height: 400px;/*Altura*/
+}
+
+.fonte-titulo {
+ 	font-family: 'Pacifico', cursive;/*Fonte dos 2 Títulos do Carrosel*/
+} 
+
+.cor__titulo__principal {
+	color: darkred;
+}
+
+.card {
+	width: 18rem;
+}
+
+.card__botao {
+	background-color: darkred;
+	color: white;
+	transition: .2s;
+}
+
+.card__botao:hover {
+	transform: scale(1.08);
+	color: yellow;
+}
+
+.card__borda {
+	border-color: darkred;
+}
