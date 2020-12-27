@@ -1,3 +1,4 @@
+/* Cabeçalho*/
 .imagem-carrossel {
   object-fit: cover; /* Capa de Ajuste do Objeto 'img' em seu container sem achatar */
   object-position: 0 80%;/* Movimentar a 'img' do seu eixo X e Y */
@@ -8,12 +9,26 @@
  	font-family: 'Pacifico', cursive;/*Fonte dos 2 Títulos do Carrosel*/
 } 
 
-.cor__titulo__principal {
+#nav__contato { 
+	color:darkred;
+	transition: .1s;
+}
+
+#nav__contato:hover{
+	text-decoration: underline; 
+}
+
+#cor__titulo__principal {
 	color: darkred;
 }
 
+/* Cabeçalho*/
+
+
+
+/* Card's*/
 .card {
-	width: 18rem;
+	max-width: 18rem;/* Máximo de Largura do Card sem esticar no Grid*/
 }
 
 .card__botao {
@@ -30,3 +45,39 @@
 .card__borda {
 	border-color: darkred;
 }
+
+.card__posicao__imagem {
+	 object-fit: cover;
+	 height: 200px;
+}
+
+
+/* Card's*/
+
+
+
+/*rodapé*/
+
+.email__contato {
+	color:darkred;
+	transition: .1s;
+}
+
+.email__contato:hover {
+	color:yellow;
+	text-decoration: underline; 
+}
+
+/*rodapé*/
+
+
+
+/* Formulário*/
+
+
+.borda__formulario {
+	border-radius: 10px; 
+	border: 2px solid darkred;
+}
+
+/* Formulário*/
